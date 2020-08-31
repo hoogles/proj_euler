@@ -2,6 +2,8 @@ from math import ceil
 
 #Fermat's factorization 
 def FF(N): 
+    while N%2 ==0:
+        N/=2
     a = ceil(N**0.5)
     b2 = a**2 - N
     while int(b2**0.5)-b2**0.5 != 0:
