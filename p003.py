@@ -1,5 +1,6 @@
 from math import ceil
 
+#Fermat's factorization 
 def FF(N): 
     a = ceil(N**0.5)
     b2 = a**2 - N
