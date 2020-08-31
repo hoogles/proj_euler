@@ -3,7 +3,7 @@ from math import ceil
 def FF(N): 
     a = ceil(N**0.5)
     b2 = a**2 - N
-    while int(b2**0.5)-b2**0.5 == 0:
+    while int(b2**0.5)-b2**0.5 != 0:
         a+=1
         b2 = a**2-N
 
